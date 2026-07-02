@@ -1,4 +1,6 @@
 
+import '../css-comnponents/footer.css'
+
 const Footer = () => (
     <footer>
 

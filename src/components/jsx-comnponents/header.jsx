@@ -1,4 +1,6 @@
 
+import '../css-comnponents/header.css'
+
 const Header = () => (
     <header>
 
@@ -7,7 +9,7 @@ const Header = () => (
         <nav>
             <ul>
                 <li>Charset</li>
-                <li>Comics</li>
+                <li className='active'>Comics</li>
                 <li>Movies</li>
                 <li>TV</li>
                 <li>Games</li>
