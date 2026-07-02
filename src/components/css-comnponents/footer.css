@@ -1,0 +1,36 @@
+footer #navigation-link {
+    background-color: #0282F9;
+}
+
+#navigation-link {
+    text-transform: uppercase;
+}
+
+#navigation-link nav {
+    padding: 50px 0;
+}
+
+#navigation-link ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+#navigation-link a {
+    color: white;
+}
+
+#navigation-link img {
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#navigation-link #shop-location{
+    width: 40px;
+}
+
+#navigation-link p {
+    display: inline;
+}

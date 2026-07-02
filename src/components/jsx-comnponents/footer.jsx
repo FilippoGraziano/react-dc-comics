@@ -4,9 +4,9 @@ import '../css-comnponents/footer.css'
 const Footer = () => (
     <footer>
 
-        <div className="container">
+        <section id='navigation-link'>
 
-            <section id=''>
+            <div className="container">
 
                 <nav>
 
@@ -35,11 +35,11 @@ const Footer = () => (
 
                         <li>
                             <a href="#">
-                                <img src="img/buy-comics-shop-locator.png" alt="digital-comics" />
+                                <img src="img/buy-comics-shop-locator.png" id='shop-location' alt="digital-comics" />
                                 <p>Comic shop locator</p>
                             </a>
                         </li>
-                        
+
                         <li>
                             <a href="#">
                                 <img src="img/buy-dc-power-visa.svg" alt="digital-comics" />
@@ -51,9 +51,12 @@ const Footer = () => (
 
                 </nav>
 
-            </section>
+            </div>
 
-            <section id='information'>
+        </section>
+
+        <section id='information'>
+            <div className="container">
                 <ul>
                     <li>
                         <h2>DC Comics</h2>
@@ -99,9 +102,12 @@ const Footer = () => (
                     <li><a href="#">DC Universe</a></li>
                     <li><a href="#">DC Power Visa</a></li>
                 </ul>
-            </section>
+            </div>
+        </section>
 
-            <section id='social'>
+        <section id='social'>
+
+            <div className="container">
                 <button>Sing-up Now!</button>
                 <div>Follow US</div>
                 <nav>
@@ -111,7 +117,6 @@ const Footer = () => (
                                 <img src="img/footer-facebook.png" alt="facebook icon" />
                             </a>
                         </li>
-            
                         <li>
                             <a href="#">
                                 <img src="img/footer-twitter.png" alt="teitter icon" />
@@ -134,9 +139,9 @@ const Footer = () => (
                         </li>
                     </ul>
                 </nav>
-            </section>
 
-        </div>
+            </div>
+        </section>
 
     </footer>
 );
