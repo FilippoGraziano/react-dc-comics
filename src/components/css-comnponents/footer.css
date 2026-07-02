@@ -1,4 +1,6 @@
-footer #navigation-link {
+/*r navigation link section */
+
+#navigation-link {
     background-color: #0282F9;
 }
 
@@ -27,10 +29,49 @@ footer #navigation-link {
     margin-right: 10px;
 }
 
-#navigation-link #shop-location{
+#navigation-link #shop-location {
     width: 40px;
 }
 
 #navigation-link p {
     display: inline;
+}
+
+/*r information section */
+
+#information {
+    background-image: url("img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#information .container {
+    display: flex;
+    height: 400px;
+    background-image: url("img/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+}
+
+#information #link {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    padding-top: 30px;
+}
+
+#information h2 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#information li {
+    margin-bottom: 5px;
+}
+
+#information a {
+    color: #858585;
 }
