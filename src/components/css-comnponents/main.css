@@ -1,4 +1,13 @@
 main {
     background-color: black;
+    font-weight: 700;
+    background-color: #363636;
+}
+
+main .container {
+    font-size: 26px;
     color: white;
+    display: flex;
+    align-items: center;
+    height: 150px;
 }

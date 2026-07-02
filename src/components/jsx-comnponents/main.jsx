@@ -3,7 +3,11 @@ import '../css-comnponents/main.css'
 
 const Main = () => (
     <main>
-        {`--> Content goes here <--`}
+        <div className="container">
+            
+            {`--> Content goes here <--`}
+
+        </div>
     </main>
 );
 
