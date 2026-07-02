@@ -5,34 +5,55 @@ const Footer = () => (
     <footer>
 
         <div className="container">
-            
-            <section>
+
+            <section id=''>
+
                 <nav>
+
                     <ul>
+
                         <li>
-                            <img src="img/buy-comics-digital-comics.png" alt="digital-comics" />
-                            <p>Digital comics</p>
+                            <a href="#">
+                                <img src="img/buy-comics-digital-comics.png" alt="digital-comics" />
+                                <p>Digital comics</p>
+                            </a>
                         </li>
+
                         <li>
-                            <img src="img/buy-comics-merchandise.png" alt="digital-comics" />
-                            <p>DC Merchandise</p>
+                            <a href="#">
+                                <img src="img/buy-comics-merchandise.png" alt="digital-comics" />
+                                <p>DC Merchandise</p>
+                            </a>
                         </li>
+
                         <li>
-                            <img src="img/buy-comics-subscriptions.png" alt="digital-comics" />
-                            <p>Sucscription</p>
+                            <a href="#">
+                                <img src="img/buy-comics-subscriptions.png" alt="digital-comics" />
+                                <p>Sucscription</p>
+                            </a>
                         </li>
+
                         <li>
-                            <img src="img/buy-comics-shop-locator.png" alt="digital-comics" />
-                            <p>Comic shop locator</p>
+                            <a href="#">
+                                <img src="img/buy-comics-shop-locator.png" alt="digital-comics" />
+                                <p>Comic shop locator</p>
+                            </a>
                         </li>
+                        
                         <li>
-                            <img src="img/buy-dc-power-visa.svg" alt="digital-comics" />
-                            <p>DC power visa</p>
+                            <a href="#">
+                                <img src="img/buy-dc-power-visa.svg" alt="digital-comics" />
+                                <p>DC power visa</p>
+                            </a>
                         </li>
+
                     </ul>
+
                 </nav>
+
             </section>
-            <section>
+
+            <section id='information'>
                 <ul>
                     <li>
                         <h2>DC Comics</h2>
@@ -79,7 +100,8 @@ const Footer = () => (
                     <li><a href="#">DC Power Visa</a></li>
                 </ul>
             </section>
-            <section>
+
+            <section id='social'>
                 <button>Sing-up Now!</button>
                 <div>Follow US</div>
                 <nav>
