@@ -1,5 +1,6 @@
 
 import '../css-comnponents/main.css'
+import '../comics'
 
 const Main = () => (
     <main>
