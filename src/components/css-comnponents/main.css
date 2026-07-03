@@ -39,6 +39,11 @@ main section .comics-cover {
     margin-bottom: 15px;
 }
 
+main .card:first-child .comics-cover, main .card:last-child .comics-cover  {
+    background-size: 160%;
+    background-position: top;
+}
+
 main section .card {
     color: white;
     font-size: 12px;
