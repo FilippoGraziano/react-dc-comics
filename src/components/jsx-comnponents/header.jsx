@@ -1,6 +1,19 @@
 
 import '../css-comnponents/header.css'
 
+const navLinks = [
+    { id: 1, name: `Charset`, link: `#`, active: false,},
+    { id: 2, name: `Comics`, link: `#`, active: true,},
+    { id: 3, name: `Movies`, link: `#`, active: false,},
+    { id: 4, name: `TV`, link: `#`, active: false,},
+    { id: 5, name: `Games`, link: `#`, active: false,},
+    { id: 6, name: `Collectibles`, link: `#`, active: false,},
+    { id: 7, name: `Videos`, link: `#`, active: false,},
+    { id: 8, name: `Fans`, link: `#`, active: false,},
+    { id: 9, name: `News`, link: `#`, active: false,},
+    { id: 10, name: `Shop`, link: `#`, active: false,}
+];
+
 const Header = () => (
     <header>
 
@@ -12,51 +25,22 @@ const Header = () => (
 
                 <ul>
 
-                    <li>
-                        <a href="#">Charset</a>
-                    </li>
+                    {navLinks.map(element => (
 
-                    <li className='active'>
-                        <a href="#">Comics</a>
-                    </li>
+                        <li key={element.id} className={element.active ? `active` : false}>
 
-                    <li>
-                        <a href="#">Movies</a>
-                    </li>
+                            <a href={element.link}>{element.name}</a>
 
-                    <li>
-                        <a href="#">TV</a>
-                    </li>
+                        </li>
 
-                    <li>
-                        <a href="#">Games</a>
-                    </li>
-
-                    <li>
-                        <a href="#">Collectibles</a>
-                    </li>
-
-                    <li>
-                        <a href="#">Videos</a>
-                    </li>
-
-                    <li>
-                        <a href="#">Fans</a>
-                    </li>
-
-                    <li>
-                        <a href="#">News</a>
-                    </li>
-                    
-                    <li>
-                        <a href="#">Shop</a>
-                    </li>
+                    ))}
 
                 </ul>
 
             </nav>
 
         </div>
+        
     </header>
 );
 
