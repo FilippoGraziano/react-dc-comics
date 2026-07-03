@@ -61,7 +61,7 @@ const Footer = () => (
 
                 <div id="link">
 
-                    <ul>
+                    <ul id='dc-comics'>
 
                         <li>
                             <h2>DC Comics</h2>
@@ -97,7 +97,7 @@ const Footer = () => (
 
                     </ul>
 
-                    <ul>
+                    <ul id='shop'>
 
                         <li>
                             <h2>Shop</h2>
@@ -113,7 +113,7 @@ const Footer = () => (
 
                     </ul>
 
-                    <ul>
+                    <ul id='dc'>
 
                         <li>
                             <h2>DC</h2>
@@ -166,7 +166,7 @@ const Footer = () => (
 
                     </ul>
 
-                    <ul>
+                    <ul id='sites'>
 
                         <li>
                             <h2>Sites</h2>

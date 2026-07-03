@@ -21,6 +21,7 @@
 
 #navigation-link a {
     color: white;
+    font-size: 12px;
 }
 
 #navigation-link img {
@@ -47,7 +48,7 @@
 
 #information .container {
     display: flex;
-    height: 400px;
+    height: 360px;
     background-image: url("img/dc-logo-bg.png");
     background-repeat: no-repeat;
     background-size: auto;
@@ -62,18 +63,23 @@
     padding-top: 30px;
 }
 
+#shop {
+    margin-top: 10px;
+}
+
 #information h2 {
     color: white;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #information li {
-    margin-bottom: 5px;
+    font-size: 14px;
 }
 
 #information a {
     color: #858585;
+    font-size: 12px;
 }
 
 /*r social section */
