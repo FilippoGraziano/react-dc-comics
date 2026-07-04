@@ -30,7 +30,7 @@
     margin-right: 10px;
 }
 
-#navigation-link #shop-location {
+#navigation-link li:nth-child(4) img {
     width: 40px;
 }
 
