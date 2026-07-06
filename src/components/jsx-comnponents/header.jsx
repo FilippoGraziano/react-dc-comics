@@ -15,7 +15,7 @@ const Header = () => (
 
                     {navLinksHeader.map(element => (
 
-                        <li key={element.id} className={element.active ? `active` : false}>
+                        <li key={element.id} className={element.active ? `active` : undefined}>
 
                             <a href={element.link}>{element.name}</a>
 
