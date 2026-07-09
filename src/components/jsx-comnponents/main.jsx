@@ -1,13 +1,7 @@
 
 import '../css-comnponents/main.css'
-import comics from '../comics';
 
-const comicsCopy = [...comics];
-
-const wrongComicCover = comicsCopy.find(element => (element.series === `Batman`))
-wrongComicCover.thumb = comicsCopy.find(element => (element.series === `Batman Beyond`)).thumb
-
-const Main = () => (
+const Main = (props) => (
     <main>
 
         <div id="jumbo"></div>
@@ -18,7 +12,7 @@ const Main = () => (
 
             <section>
 
-                {comicsCopy.map(element => (
+                {props.comics.map(element => (
 
                     <div key={element.id} className="card">
 
